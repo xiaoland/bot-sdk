@@ -68,7 +68,7 @@ class Bot(Bot):
 
         self.addIntentHandler('idiom', self.idiom)
 
-        self.addIntentHandler('answer_idiom', self.answer)、
+        self.addIntentHandler('answer_idiom', self.answer)
         
         self.imageurl = [
             ['支离破碎': 'http://dbp-resource.gz.bcebos.com/c34fc6ae-3146-0c82-9cee-105b18065f17/%E6%94%AF%E7%A6%BB%E7%A0%B4%E7%A2%8E.png?authorization=bce-auth-v1%2Fa4d81bbd930c41e6857b989362415714%2F2018-06-02T05%3A40%3A12Z%2F-1%2F%2Ffe3796074d45a645faac8f230a2b5890e8a7dfcd370862dc3acb416e2c05ab26'],
